@@ -181,17 +181,34 @@ int table::bfs(char key[]) // BFS
 	if (!list)
 		return 0;
 
-	node * current = list[findloc(key)].head;
+	std::list<char*> queue;
+	char colors[list_size] = {'g'}; // g = gray, w = white, b = black
+	int s = findloc(key);
+	node * current = list[s].head;
 
-	while (current && !flag[findloc(current->adjacent->option.name)]) // Does the first search
+	flag[s] = true; // visit flags
+	queue.push_back(list[s].option.name);
+
+	while(!queue.empty())
 	{
-		cout << current->adjacent->option.name << '\t';
-		flag[findloc(current->adjacent->option.name)] = true;
-		cout << '\n';
-		current = current->next;
+		cout << list[findloc(queue.front())].option.name << " ";
+		current = list[findloc(queue.front())].head;
+		queue.pop_front();
+
+		while (current != nullptr)
+		{
+			int visited = findloc(current->adjacent->option.name);
+			if (!flag[visited])
+			{
+				flag[visited] = true;
+				queue.push_back(list[visited].option.name);
+			}
+
+			current = current->next;
+		}
 	}
 
-	
+
 	for (int i = 0; i < list_size; ++i)
 		flag[i] = false;
 
@@ -208,7 +225,8 @@ int menu()
 		"2) Connect data\n"
 		"3) Display\n"
 		"4) Exit Program\n"
-		"5) DepthFirst Search" << endl;
+		"5) Depth First Search\n" 
+		"6) Breadth First Search" << endl;
 
 	cin >> user;
 	cin.ignore(100, '\n');

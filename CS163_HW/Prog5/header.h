@@ -2,6 +2,7 @@
 #include <cctype>
 #include <cstring>
 #include <fstream>
+#include <list>
 
 struct decision
 {
