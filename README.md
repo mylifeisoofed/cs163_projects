@@ -1,5 +1,5 @@
 # Welcome to My Programming Projects!
-This repository showcases a series of diverse programs, each focusing on different data structures and concepts. Below is an overview of each program:
+This repository showcases a series of my programming projects that I have done during CS163 at Portland State University, each exploring and focusing on different data structures and concepts. Below is an overview of each program:
 
 ## Program #1: Dog Park Explorer
 Explore dog parks with this program! It features a list of dog parks along with details about their amenities, features, and ratings. Implemented using a linear linked list, it offers a Yelp-like experience tailored specifically for dog parks.
