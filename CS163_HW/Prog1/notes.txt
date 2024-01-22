@@ -1,0 +1,11 @@
+Notes for myself:
+
+- May need to overhaul my entire ADT. Maybe split the operations into two classes rather than one?
+one to hand the list better (handles the linear linked list), the other to handle my structs (copying name, amenity, etc.)
+
+- Delete member function will need to deallocate similar to the deconstructor.
+
+- Maybe clean up the main function by separating operations into functions.
+
+- tidy the menu.
+

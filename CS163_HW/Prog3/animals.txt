@@ -1,0 +1,14 @@
+british labador|dog|smart|to hunt ducks|large|can swim|6
+husky|dog|energetic|to mush sleds|medium|loves snow|10
+tabby cat|cat|lazy|to catch mice|small|easy to care for|2
+iguana|lizard|chills|to look cool|medium|big lizard|4
+rat|rodent|energetic|to play with|small|interesting|3
+hampster|rodent|chill|to spin|small|needs friend|2
+grey parrot|bird|talkative|to keep company|small|smart|10
+dragon|mythical creature|not real|to lie to your friends about|large|fictional|3
+serpent|mythical beast|not real|imaginary purposes|large|fictional|4
+persian cat|cat|lazy|cool cat to have|small|cool|6
+american quarter horse|horse|energetic|transportation|large|fast|7
+rhode island red|chicken|neutral|to lay eggs|small|eggs|6
+chimpanzee|monkey|smart|to have as a companion|medium|awesome|8
+eagle|bird|sharp|america bird|medium|flies|8
