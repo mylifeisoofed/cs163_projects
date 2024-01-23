@@ -1,5 +1,6 @@
 # Welcome to My Programming Projects!
-Here are all of the programming projects that I have done during CS163 at Portland State University, each exploring and focusing on different data structures and concepts. Below is an overview of each program:
+Here are all of the programming projects that I have done during CS163 at Portland State University, each exploring and focusing on different data structures and concepts. 
+Below is an overview of each program:
 
 ## Program #1: Dog Park Explorer
 It features a list of dog parks along with details about their amenities, features, and ratings. Implemented using a linear linked list, it offers a Yelp-like experience tailored specifically for dog parks.
